@@ -1,6 +1,5 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
-import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaDownload } from "react-icons/fa";
@@ -21,17 +20,15 @@ const hero = () => {
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
-      <div className="absolute top-0 left-0 flex h-screen w-full items-center justify-center bg-white dark:bg-black-100" />
       <div
-        className={cn(
-          "absolute inset-0",
-          "[background-size:40px_40px]",
-          "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-          "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
-        )}
-      />
-
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"></div>
+        className="h-screen w-full dark:bg-black-100 dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+       absolute top-0 left-0 flex items-center justify-center"
+      >
+        <div
+          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
+         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+        />
+      </div>
 
       <TechLogosBackground />
 
@@ -54,7 +51,7 @@ const hero = () => {
             <MagicButton
               title="Download Resume"
               position="right"
-              icon={<FaDownload className="w-4 h-4 ml-2"/>}
+              icon={<FaDownload className="w-4 h-4 ml-2" />}
             />
           </a>
         </div>

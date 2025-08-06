@@ -1,4 +1,3 @@
-// components/ui/TechLogosBackground.tsx
 import Image from 'next/image';
 
 const techLogos = [
@@ -11,11 +10,11 @@ const techLogos = [
 
 const TechLogosBackground = () => {
   return (
-    <div className="absolute inset-0 z-0 pointer-events-none">
+    <div className="absolute inset-0 z-10 shadow-md pointer-events-none">
       {techLogos.map((logo, i) => (
         <div
           key={i}
-          className={`absolute ${logo.style} w-16 h-16 md:w-24 md:h-24 opacity-45 blur-sm ${logo.float}`}
+          className={`absolute ${logo.style} w-16 h-16 md:w-24 md:h-24 opacity-40 blur-sm ${logo.float}`}
         >
           <Image
             src={logo.src}
