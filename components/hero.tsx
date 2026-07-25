@@ -47,7 +47,7 @@ const hero = () => {
             developer based in Karachi, Pakistan
           </p>
 
-          <a href="/Nextjs_Resume.pdf" download>
+          <a href="/Uzair_Resume_Cybersecurity.pdf" download>
             <MagicButton
               title="Download Resume"
               position="right"
