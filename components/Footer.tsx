@@ -26,8 +26,9 @@ const Footer = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between mt-10 gap-3">
         <p className="font-light md:font-normal text-sm md:text-base">
-          Copyright © 2025 Uzair
+          Copyright © 2026 Uzair
         </p>
+        
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
             <Link
