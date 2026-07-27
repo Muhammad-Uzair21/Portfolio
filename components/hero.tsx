@@ -54,6 +54,9 @@ const hero = () => {
               icon={<FaDownload className="w-4 h-4 ml-2" />}
             />
           </a>
+          <p className="text-xs text-blue-100 mt-8 tracking-wide opacity-45">
+            🔄 Full site rebrand in progress - new experience coming soon
+          </p>
         </div>
       </div>
     </div>
