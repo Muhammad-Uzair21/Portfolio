@@ -43,7 +43,7 @@ const hero = () => {
             className="text-center text-[40px] md:5xl lg:6xl"
           />
           <p className="text-center text-sm md:text-lg lg:text-2xl mb-4">
-            Hi! I&apos;m<span className="text-purple"> Uzair</span>, a Next.Js
+            Hi! I&apos;m<span className="text-purple"> Uzair</span>, a Former Next.Js
             developer based in Karachi, Pakistan
           </p>
 
@@ -55,7 +55,7 @@ const hero = () => {
             />
           </a>
           <p className="text-xs text-blue-100 mt-8 tracking-wide opacity-45">
-            🔄 Full site rebrand in progress - new experience coming soon
+             🔴 Currently transitioning into Cybersecurity - Complete website rebrand in progress
           </p>
         </div>
       </div>
